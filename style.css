@@ -1,0 +1,331 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000; /* Cor de fundo */
+    padding: 10px 20px;
+    color: black;
+    background-image: url('./imgbanner/Banner.jpg'); /* Caminho para a imagem */
+    background-size: cover; /* Cobrir o fundo completamente */
+    background-position: center; /* Centralizar a imagem no footer */
+    background-repeat: no-repeat; /* Evitar repetição da imagem */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:25vh;
+}
+
+.adx {
+    font-size: 3rem; /* Tamanho grande para o texto "ADX" */
+    font-weight: bold; /* Deixa o texto mais forte */
+    margin-left: 0 100px;
+    
+}
+
+/* Estilo para "Associação Itabirana de Xadrez" (letra menor) */
+.asso {
+    font-size: 1.2rem; /* Tamanho menor para o texto da associação */
+    margin-left: 0 100px;
+    font-weight: normal;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.social-icons a {
+    margin-left: 0 200px;
+    margin: 0 10px; /* Espaçamento entre os ícones sociais */
+}
+
+.social-icons img {
+    height: 30px; /* Altura dos ícones sociais */
+    width: 30px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Aumenta os ícones ao passar o mouse */
+}
+.header h1{
+    font-size: 2.5 rem;
+    color: #f8f8f8;
+    margin-left:0;
+}
+.header h2{
+    font-size: 1.5rem;
+    color: #f8f8f8;
+    margin-left: 0;
+}
+
+.menu {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: -15%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 200px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px;
+}
+/* Menu */
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: bottom 2%;
+    
+}
+
+.menu li {
+    margin: 10px;
+    margin-bottom: 2%;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Main */
+main {
+    padding: 180px;
+    background-color: #000000; /* Cor de fundo (usada caso a imagem não carregue) */
+    background-image: url('./imgbackground/backmain.png'); /* Caminho para a imagem */
+    background-size: cover; /* Cobrir o fundo completamente */
+    background-position: center; /* Centralizar a imagem no footer */
+}
+
+.titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color:#ffffff;
+    ;
+}
+
+section {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+/* Destaques */
+#destaques img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    color: #f8f8f8;
+}
+p{
+    color: #f8f8f8;
+}
+/* Galeria */
+.news-navigation2 ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-navigation2 li {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-navigation2 a {
+    text-decoration: none;
+    color: #f8f8f8;
+    display: block;
+    padding: 15px;
+}
+
+.news-navigation2 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.news-navigation2 h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #f8f8f8;
+}
+
+/* Projetos */
+.news-navigation ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-navigation li {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-navigation a {
+    text-decoration: none;
+    color:#f8f8f8;;
+    display: block;
+    padding: 15px;
+}
+
+.news-navigation img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.news-navigation h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #f8f8f8;
+}
+
+.news-navigation p {
+    font-size: 14px;
+    color: #f8f8f8;
+}
+/* Quem somos  */
+.quem-somos {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.quem-somos h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f9b600; /* Cor do título */
+}
+
+.quem-somos h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f9b600; /* Linha abaixo do subtítulo */
+    padding-bottom: 5px;
+}
+
+.quem-somos p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.subsecao {
+    margin-bottom: 30px;
+}
+/* Footer */
+.footer {
+    background-color: #333; /* Cor de fundo (usada caso a imagem não carregue) */
+    background-image: url('./imgbackground/background.jpg'); /* Caminho para a imagem */
+    background-size: cover; /* Cobrir o fundo completamente */
+    background-position: center; /* Centralizar a imagem no footer */
+    background-repeat: no-repeat; /* Evitar repetição da imagem */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Estilo para o ícone (logo) */
+#logo {
+    width: 260px; /* Largura do logo */
+    height: auto; /* Manter proporção da imagem */
+    margin-bottom: 10px; /* Espaço inferior */
+}
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2rem;
+    }
+    .banner h3 {
+        font-size: 1rem;
+    }
+    #tabelaGaleria, #tabelaProjetos {
+        width: 100%;
+        display: block;
+    }
+    #tabelaGaleria img, #tabelaProjetos img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu ul {
+        flex-direction: column;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner h3 {
+        font-size: 0.9rem;
+    }
+}
+
